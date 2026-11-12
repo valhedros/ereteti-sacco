@@ -1,0 +1,20 @@
+body{
+    background: #f7f3f7
+}
+
+h1, h2, h3 {
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 100px;
+}
+
+strong, em, a{
+    border: 3px solid brown;
+}
