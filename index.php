@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Ereteti Dairy Sacco</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/main.js" defer></script>
-    </head>
-    <body>
-
-        <header>
-            <h1>Ereteti Dairy Sacco</h1>
-            <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="routes.html">Our Routes</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="register.html">Join</a></li>
-                <li><a href="deliveries.html">Deliveries</a></li>
-            </ul>
-        </nav>
+<?php
+$page_title = 'Welcome to Ereteti';
+include 'includes/header.php';
+?>
         <main>
             <h2>Milk collected twice a day, paid once a month</h2>
             <p>Ereteti Dairy Sacco has collected milk on the Ngong road
@@ -46,11 +25,4 @@
                alt="farmers queuing with churns at a collection shed, a clerk weighing one on a hanging scale">
 
         </main>
-        <footer>
-            <p>
-                <strong>
-                Site </strong> built by <em>Milla Mutai<em>, DBT Year 1, 2026.</p>
-        </footer>
-
-    </body>
-</html>
+        <?php include 'includes/footer.php'; ?>

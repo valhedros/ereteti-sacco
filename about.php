@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>About us - Ereteti Dairy Sacco</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/main.js" defer></script>
-    </head>
-    <body>
-
-        <header>
-            <h1>About Ereteti</h1>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="routes.html">Our Routes</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="register.html">Join</a></li>
-                <li><a href="deliveries.html">Deliveries</a></li>
-            </ul>
-        </nav>
+<?php
+$page_title = 'About the sacco';
+include 'includes/header.php';
+?>
         <main>
             <h2>Nine farmers and one cooler</h2>
             <p>The sacco was registered in 1998 by nine farmers who were
@@ -44,10 +24,4 @@
                alt="Churns loaded onto the lorry on the Ngong road at sunrise">
 
         </main>
-        <footer>
-            <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-            <p>Site built by Milla Mutai, DBT Year 1, 2026.</p>
-        </footer>
-
-    </body>
-</html>
+        <?php include 'includes/footer.php'; ?>

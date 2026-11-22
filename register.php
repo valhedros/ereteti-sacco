@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Ereteti Dairy Sacco</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/main.js" defer></script>
-    </head>
-    <body>
-
-        <header>
-            <h1>Apply for Membership</h1>
-            <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="routes.html">Our Routes</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="register.html">Join</a></li>
-                <li><a href="deliveries.html">Deliveries</a></li>
-            </ul>
-        </nav>
+<?php
+$page_title = 'Apply for membership';
+include 'includes/header.php';
+?>
         <main>
             <p>
                 Any dairy farmer within reach of one of our three routes
@@ -31,7 +10,7 @@
                 membership number is issued you may deliver from that day,
                 and you are paid once a month for the litres we accept.
             </p>
-            <form action="#" method="_____">
+            <form action="process-register.php" method="get">
                 <fieldset>
                     <legend>Your Details</legend>
 
@@ -73,11 +52,4 @@
                 <button type="submit">Apply to join</button>
             </form>
         </main>
-
-        <footer>
-            <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-            <p>Site built by Milla Mutai, DBT Year 1, 2026.</p>
-        </footer>
-
-    </body>
-</html>
+        <?php include 'includes/footer.php'; ?>
